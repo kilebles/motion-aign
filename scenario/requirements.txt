@@ -1,0 +1,5 @@
+python-docx==1.2.0
+google-genai==2.21.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+httpx==0.28.1

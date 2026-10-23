@@ -7,3 +7,11 @@ dist
 out
 out.mp4
 .venv
+__pycache__
+*.pyc
+# Telegram bot job folders (uploads, scenario output, renders, archives)
+jobs
+public/personalities
+norman020
+*.docx
+*.zip

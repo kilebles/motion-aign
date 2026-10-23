@@ -1,0 +1,16 @@
+[project]
+name = "motion-aign"
+version = "0.1.0"
+description = "Scenario docx -> personality cards (Remotion) pipeline and Telegram bot"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.22",
+    "python-docx==1.2.0",
+    "google-genai==2.21.0",
+    "pydantic==2.13.5",
+    "pydantic-settings==2.15.0",
+    "httpx==0.28.1",
+]
+
+[tool.uv]
+package = false
